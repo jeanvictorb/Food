@@ -3,6 +3,7 @@ import { Banner } from "../components/banner";
 import { Head } from "../components/header/Head";
 
 import Constants from "expo-constants";
+import { FastFood } from "../components/fastfood";
 import { Search } from "../components/search";
 import { Section } from "../components/section/section";
 import { Trending } from "../components/trending";
@@ -42,6 +43,7 @@ export default function Index() {
         action={() => console.log("Clicou no botao famoso no food")}
         size="text-xl"
       />
+      <FastFood />
     </ScrollView>
   );
 }
