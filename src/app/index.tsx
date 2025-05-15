@@ -10,6 +10,7 @@ import { Trending } from "../components/trending";
 //para funcionar tem que rodar 2 cdm
 //npx expo start para rodar o front
 //npx json-server db.json para rodar backend
+//para Jean do futuro
 
 const statusBarHeight = Constants.statusBarHeight;
 export default function Index() {

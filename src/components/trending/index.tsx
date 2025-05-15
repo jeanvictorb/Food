@@ -17,7 +17,7 @@ export function Trending() {
 
   useEffect(() => {
     async function getFoods() {
-      const response = await fetch("http://192.168.1.101/foods");
+      const response = await fetch("http://10.35.238.92/foods");
       const data = await response.json();
       setFoods(data);
     }

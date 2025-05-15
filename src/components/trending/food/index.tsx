@@ -17,7 +17,7 @@ export function CardHorizontalFood({ food }: { food: FoodProps }) {
       <Text className="text-black mt-1">R$ {food.name}</Text>
       <Text className="text-neutral-600">
         R$ {food.time} - R$ {food.delivery}
-      </Text>
+      </Text>   
     </Pressable>
   );
 }
