@@ -29,4 +29,8 @@ export function Banner() {
       </PagerView>
     </View>
   );
+
+  
 }
+
+
