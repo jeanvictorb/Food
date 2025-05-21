@@ -44,6 +44,12 @@ export default function Index() {
         size="text-xl"
       />
       <FastFood />
+      <Section
+        name="Restaurantes"
+        label="Veja mais"
+        action={() => console.log("Clicou no botao comidas em alta")}
+        size="text=2xl"
+      />
     </ScrollView>
   );
 }
